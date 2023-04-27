@@ -25,7 +25,7 @@ def lasso(data):
     # w = np.zeros(xlen)
     return ridge(data)
 
-def read_data(path='../data/exp02/'):
+def read_data(path='./data/exp02/'):
     x = np.load(path + 'X_train.npy')
     y = np.load(path + 'y_train.npy')
     return x, y
